@@ -7,10 +7,9 @@ export default defineConfig({
     outDir: 'dist'
   },
   server: {
-    port: 5173,
     proxy: {
       '/api': {
-        target: 'http://localhost:5000',
+        target: 'https://e-learning-backend.onrender.com',
         changeOrigin: true
       }
     }
