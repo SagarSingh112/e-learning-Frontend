@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'https://e-learning-backend.onrender.com',
+  baseURL: 'https://e-learning-backend-bbu3.onrender.com',
   headers: { 'Content-Type': 'application/json' }
 });
 
